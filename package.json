@@ -26,8 +26,7 @@
     "start:debug": "evershop start --debug",
     "test": "jest --workspace=@evershop/evershop",
     "cypress": "cypress run",
-    "lint": "eslint --fix --ext .js,.jsx .",
-    "prepare": "husky install"
+    "lint": "eslint --fix --ext .js,.jsx ."
   },
   "author": "The Nguyen (https://evershop.io)",
   "license": "GNU GENERAL PUBLIC LICENSE 3.0",
@@ -44,7 +43,6 @@
     "eslint-plugin-jsx-a11y": "^6.5.1",
     "eslint-plugin-react": "^7.28.0",
     "eslint-plugin-react-hooks": "^4.3.0",
-    "husky": "^8.0.3",
     "jest": "^27.4.3",
     "prettier": "2.8.4",
     "reflect-metadata": "^0.1.13",
