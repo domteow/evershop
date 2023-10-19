@@ -18,8 +18,10 @@ jobs:
         with:
           node-version: 14
 
-      - name: Install dependencies
+      - name: initialize npm
         run: npm init 
+
+      - name: Install Evershop
         run: npm install @evershop/evershop
 
       - name: Setup frontend
