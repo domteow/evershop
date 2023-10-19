@@ -22,9 +22,13 @@ jobs:
         run: npm init 
         run: npm install @evershop/evershop
 
-      - name: Build frontend
+      - name: Setup frontend
         run: npm run setup
+
+      - name: Build frontend
         run: npm run build
+
+      - name: Start frontend
         run: npm run start 
 
       - name: Configure AWS credentials
